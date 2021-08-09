@@ -2247,6 +2247,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@open-web3/orml-type-definitions@npm:^0.9.1":
+  version: 0.9.3
+  resolution: "@open-web3/orml-type-definitions@npm:0.9.3"
+  checksum: 2d04452aeea01f7d79b27b1492f25e9f91c6d2b8e6a9168ab28c3c20f2f856944764ed393e79536196fd5b1080d3b615b3f7901a6d3ad61c46f2064ca9bc8406
+  languageName: node
+  linkType: hard
+
 "@open-web3/orml-type-definitions@npm:^0.9.4-7":
   version: 0.9.4-9
   resolution: "@open-web3/orml-type-definitions@npm:0.9.4-9"
@@ -2589,6 +2596,7 @@ __metadata:
     "@phala/typedefs": 0.2.5
     "@polkadot/networks": ^7.1.1
     "@polymathnetwork/polymesh-types": 0.0.2
+    "@reef-defi/type-definitions": ^0.1.6
     "@snowfork/snowbridge-types": 0.2.3
     "@sora-substrate/type-definitions": 1.4.1
     "@subsocial/types": 0.5.9-dev.2
@@ -3322,6 +3330,15 @@ __metadata:
   version: 0.0.2
   resolution: "@polymathnetwork/polymesh-types@npm:0.0.2"
   checksum: 4a1168de7547ad25d770eaca806f683f1789a649b3045dbd84e0e8da0e03bfc1f556628b70947ec80894f9aa4307648f6c344323840e43f2e306f0edd3ae21b6
+  languageName: node
+  linkType: hard
+
+"@reef-defi/type-definitions@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "@reef-defi/type-definitions@npm:0.1.6"
+  dependencies:
+    "@open-web3/orml-type-definitions": ^0.9.1
+  checksum: e00894a252b9d530c15b7e32e6c612e2ee5bd0126dabc03e3594c9aa0b46cbd5cfd0079fcb62d1023bcb9f1b3ceee27d6c53c0ee0b60ebf8f2e52df473f0cad3
   languageName: node
   linkType: hard
 
