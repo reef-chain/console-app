@@ -549,15 +549,5 @@ export default withMulti(
       propName: 'stakingInfo',
       skipIf: skipStakingIf
     }],
-    ['derive.democracy.locks', {
-      paramName: 'address',
-      propName: 'democracyLocks',
-      skipIf: skipStakingIf
-    }],
-    ['query.democracy.votingOf', {
-      paramName: 'address',
-      propName: 'votingOf',
-      skipIf: skipStakingIf
-    }]
   )
 );
