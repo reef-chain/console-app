@@ -75,6 +75,7 @@ import polkafoundry from './polkafoundry';
 import polymesh from './polymesh';
 import pontem from './pontem';
 import prism from './prism';
+import reef from './reef';
 import realis from './realis';
 import riochain from './riochain';
 import robonomics from './robonomics';
@@ -193,6 +194,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   polymesh,
   pontem,
   prism,
+  reef,
   realis,
   'riochain-runtime': riochain,
   robonomics,
