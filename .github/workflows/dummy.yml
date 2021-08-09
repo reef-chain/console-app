@@ -1,7 +1,0 @@
-  # dummy, GH actions fails outright when all steps are skipped (like it can be above)
-  dummy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: dummy
-      run: |
-        echo "Dummy skip step"
