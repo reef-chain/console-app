@@ -9,6 +9,7 @@
 // anything for a specific chain, most would probably fit into the node category (but allow for chain-specific)
 // alphabetical
 import { sanitize } from '../util';
+import chainReef from './chains/reef.svg';
 import chainAleph from './chains/aleph.svg';
 import chainAltair from './chains/altair.svg';
 import chainDusty from './chains/dusty.png';
@@ -207,6 +208,8 @@ export const chainLogos = Object.entries({
   'Prism PC1': nodePrism,
   'Prism Testnet': nodePrism,
   'ReAlis Network': nodeRealis,
+  'Reef Testnet': chainReef,
+  'Reef Mainnet': chainReef,
   'RioChain CC-1': nodeRiochain,
   'RioChain Staging': nodeRiochain,
   Rococo: chainRococo,
@@ -338,6 +341,7 @@ export const nodeLogos = Object.entries({
   'Prism Collator': nodePrism,
   'Prism Node': nodePrism,
   'ReAlis Network': nodeRealis,
+  'reef': chainReef,
   'Rio Defi Chain Node': nodeRiochain,
   'RioChain Staging': nodeRiochain,
   robonomics: nodeRobonomics,
@@ -480,6 +484,7 @@ export const namedLogos: Record<string, unknown> = {
   pontem: nodePontem,
   prism: nodePrism,
   realis: nodeRealis,
+  reef: chainReef,
   riochain: nodeRiochain,
   robonomics: nodeRobonomics,
   rocky: nodeCrust,
