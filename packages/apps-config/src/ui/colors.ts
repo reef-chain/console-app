@@ -9,7 +9,7 @@ import { sanitize } from './util';
 // the actual RPC node it is corrected to (system.name RPC)
 
 // defaults
-const emptyColor = '#99999';
+const emptyColor = '#681cff';
 
 // based on chain name
 // alphabetical
