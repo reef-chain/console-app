@@ -27,6 +27,7 @@ import chainShiden from './chains/shiden.png';
 import chainSnakenet from './chains/snakenet.svg';
 import chainUnique from './chains/unique.svg';
 import extensionPolkadotJs from './extensions/polkadot-js.svg';
+import extensionReef from './extensions/reef.svg';
 import externalCommonwealth from './external/commonwealth.png';
 import externalDotScanner from './external/dotscanner.png';
 import externalPolkascan from './external/polkascan.png';
@@ -569,7 +570,8 @@ export const namedLogos: Record<string, unknown> = {
 
 // extension logos
 export const extensionLogos: Record<string, unknown> = {
-  'polkadot-js': extensionPolkadotJs
+  'polkadot-js': extensionPolkadotJs,
+  'reef': extensionReef
 };
 
 // external logos, i.e. for explorers
