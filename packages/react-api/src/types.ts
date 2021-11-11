@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/react-api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { SubmittableExtrinsicFunction } from '@polkadot/api/promise/types';
 import type { InjectedExtension } from '@reef-defi/extension-inject/types';
+import type { SubmittableExtrinsicFunction } from '@polkadot/api/promise/types';
 
 import { ApiPromise } from '@polkadot/api/promise';
 

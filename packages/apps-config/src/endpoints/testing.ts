@@ -21,8 +21,8 @@ export function createTesting (t: TFunction, firstOnly?: boolean): LinkOption[] 
       info: 'reef',
       text: t('rpc.test.reef', 'Reef Testnet (Maldives)', { ns: 'apps-config' }),
       providers: {
-        "Reef Finance": 'wss://rpc-testnet.reefscan.com/ws'
+        'Reef Finance': 'wss://rpc-testnet.reefscan.com/ws'
       }
-    },
+    }
   ], firstOnly);
 }

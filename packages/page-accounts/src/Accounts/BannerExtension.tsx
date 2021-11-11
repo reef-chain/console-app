@@ -1,13 +1,13 @@
 // Copyright 2017-2021 @polkadot/app-accounts authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import { isWeb3Injected } from '@reef-defi/extension-dapp';
 import { detect } from 'detect-browser';
 import React, { useRef } from 'react';
 import { Trans } from 'react-i18next';
 
 import useExtensionCounter from '@polkadot/app-settings/useCounter';
 import { availableExtensions } from '@polkadot/apps-config';
-import { isWeb3Injected } from '@reef-defi/extension-dapp';
 import { onlyOnWeb } from '@polkadot/react-api/hoc';
 import { useApi } from '@polkadot/react-hooks';
 import { stringUpperFirst } from '@polkadot/util';

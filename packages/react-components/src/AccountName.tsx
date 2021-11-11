@@ -46,13 +46,11 @@ export function getParentAccount (value: string): string | undefined {
 function defaultOrAddr (defaultName = '', _address: AccountId | AccountIndex | Address | string | Uint8Array, _accountIndex?: AccountIndex | null): [React.ReactNode, boolean, boolean, boolean] {
   const known = KNOWN.find(([known]) => known.eq(_address));
 
-
   if (known) {
     return [known[1], false, false, true];
   }
 
   const accountId = _address.toString();
-
 
   if (!accountId) {
     return [defaultName, false, false, false];
