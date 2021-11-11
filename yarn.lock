@@ -3361,30 +3361,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reef-defi/extension-dapp@file:/home/nibbles/workspace/sapientia/reef/extension/packages/extension-dapp/build::locator=polkadot-apps%40workspace%3A.":
-  version: 0.41.2-0
-  resolution: "@reef-defi/extension-dapp@file:/home/nibbles/workspace/sapientia/reef/extension/packages/extension-dapp/build#/home/nibbles/workspace/sapientia/reef/extension/packages/extension-dapp/build::hash=7e05a8&locator=polkadot-apps%40workspace%3A."
+"@reef-defi/extension-dapp@npm:^0.41.2-0":
+  version: 0.41.2
+  resolution: "@reef-defi/extension-dapp@npm:0.41.2"
   dependencies:
     "@babel/runtime": ^7.15.4
     "@polkadot/util": ^7.8.2
     "@polkadot/util-crypto": ^7.8.2
-    "@reef-defi/extension-inject": ^0.41.2-0
+    "@reef-defi/extension-inject": ^0.41.2
   peerDependencies:
     "@polkadot/api": "*"
     "@polkadot/util": "*"
     "@polkadot/util-crypto": "*"
-  checksum: 05feb5ea2c682e08bd1874899ae5540cdb48d7177cdbd9f9ce14efef0b69de0d2813d0fc37d3ba34839e5d1140cdcbaab065561a7fe7bc42ba0a66fec738c911
+  checksum: 4ec7836ad2db3182ba758fc770993208f2fbf4e727f198064d84d8c8f13312b7ca6c0986727da57fd886cb27e83aeef89c4a0fd476d90142cc226ec89e83807e
   languageName: node
   linkType: hard
 
-"@reef-defi/extension-inject@file:/home/nibbles/workspace/sapientia/reef/extension/packages/extension-inject::locator=polkadot-apps%40workspace%3A.":
-  version: 0.41.2-0
-  resolution: "@reef-defi/extension-inject@file:/home/nibbles/workspace/sapientia/reef/extension/packages/extension-inject#/home/nibbles/workspace/sapientia/reef/extension/packages/extension-inject::hash=bfe203&locator=polkadot-apps%40workspace%3A."
+"@reef-defi/extension-inject@npm:0.41.2":
+  version: 0.41.2
+  resolution: "@reef-defi/extension-inject@npm:0.41.2"
   dependencies:
     "@babel/runtime": ^7.15.4
   peerDependencies:
     "@polkadot/api": "*"
-  checksum: 750a8b48afe5e2a9666074e2a734ab37ddb7434d39d6acbe9161c27029ea3cb19d58336ef791c00c40001b1c6a9d4beab17b27576f9a333011a75aa133807c2c
+  checksum: e4b81abdd607b862a11fc84dbe6556985d00f37477bf72b9f9ecd00f24589f9c34fea1dd35b2171a9b416107da0f8002baeeb3e1817ad5d0323bf94b08955b6b
   languageName: node
   linkType: hard
 
