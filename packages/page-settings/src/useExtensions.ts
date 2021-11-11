@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { ApiPromise } from '@polkadot/api';
-import type { InjectedExtension, InjectedMetadataKnown, MetadataDef } from '@polkadot/extension-inject/types';
+import type { InjectedExtension, InjectedMetadataKnown, MetadataDef } from '@reef-defi/extension-inject/types';
 
 import { useEffect, useMemo, useState } from 'react';
 import store from 'store';

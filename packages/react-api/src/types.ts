@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { SubmittableExtrinsicFunction } from '@polkadot/api/promise/types';
-import type { InjectedExtension } from '@polkadot/extension-inject/types';
+import type { InjectedExtension } from '@reef-defi/extension-inject/types';
 
 import { ApiPromise } from '@polkadot/api/promise';
 

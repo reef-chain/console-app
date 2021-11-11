@@ -7,7 +7,7 @@ import { Trans } from 'react-i18next';
 
 import useExtensionCounter from '@polkadot/app-settings/useCounter';
 import { availableExtensions } from '@polkadot/apps-config';
-import { isWeb3Injected } from '@polkadot/extension-dapp';
+import { isWeb3Injected } from '@reef-defi/extension-dapp';
 import { onlyOnWeb } from '@polkadot/react-api/hoc';
 import { useApi } from '@polkadot/react-hooks';
 import { stringUpperFirst } from '@polkadot/util';
