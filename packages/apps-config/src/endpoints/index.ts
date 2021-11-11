@@ -6,9 +6,7 @@ import type { LinkOption } from './types';
 
 import { createCustom, createDev, createOwn } from './development';
 import { createProduction } from './production';
-import { createKusamaRelay, createPolkadotRelay } from './productionRelays';
 import { createTesting } from './testing';
-import { createRococoRelay, createWestendRelay } from './testingRelays';
 
 export { CUSTOM_ENDPOINT_KEY } from './development';
 

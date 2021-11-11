@@ -548,6 +548,6 @@ export default withMulti(
       paramName: 'address',
       propName: 'stakingInfo',
       skipIf: skipStakingIf
-    }],
+    }]
   )
 );

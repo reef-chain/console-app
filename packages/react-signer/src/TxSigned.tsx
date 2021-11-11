@@ -10,11 +10,11 @@ import type { Multisig, Timepoint } from '@polkadot/types/interfaces';
 import type { Ledger } from '@polkadot/ui-keyring';
 import type { AddressFlags, AddressProxy, QrState } from './types';
 
+import { web3FromSource } from '@reef-defi/extension-dapp';
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 import { ApiPromise } from '@polkadot/api';
-import { web3FromSource } from '@polkadot/extension-dapp';
 import { Button, ErrorBoundary, Modal, Output, StatusContext, Toggle } from '@polkadot/react-components';
 import { useApi, useLedger, useToggle } from '@polkadot/react-hooks';
 import { keyring } from '@polkadot/ui-keyring';

@@ -1,12 +1,13 @@
 // Copyright 2017-2021 @polkadot/react-api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import type { InjectedExtension } from '@reef-defi/extension-inject/types';
 import type BN from 'bn.js';
-import type { InjectedExtension } from '@polkadot/extension-inject/types';
 import type { ChainProperties, ChainType } from '@polkadot/types/interfaces';
 import type { KeyringStore } from '@polkadot/ui-keyring/types';
 import type { ApiProps, ApiState } from './types';
 
+import { web3Accounts, web3Enable } from '@reef-defi/extension-dapp';
 import { Detector } from '@substrate/connect';
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 import store from 'store';
@@ -15,7 +16,6 @@ import { WsProvider } from '@polkadot/api';
 import { ApiPromise } from '@polkadot/api/promise';
 import { deriveMapCache, setDeriveCache } from '@polkadot/api-derive/util';
 import { ethereumChains, typesBundle, typesChain } from '@polkadot/apps-config';
-import { web3Accounts, web3Enable } from '@polkadot/extension-dapp';
 import { TokenUnit } from '@polkadot/react-components/InputNumber';
 import { StatusContext } from '@polkadot/react-components/Status';
 import ApiSigner from '@polkadot/react-signer/signers/ApiSigner';

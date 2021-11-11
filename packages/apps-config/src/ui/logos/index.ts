@@ -9,7 +9,6 @@
 // anything for a specific chain, most would probably fit into the node category (but allow for chain-specific)
 // alphabetical
 import { sanitize } from '../util';
-import chainReef from './chains/reef.svg';
 import chainAleph from './chains/aleph.svg';
 import chainAltair from './chains/altair.svg';
 import chainDusty from './chains/dusty.png';
@@ -19,6 +18,7 @@ import chainHydrate from './chains/hydrate.png';
 import chainKarura from './chains/karura.svg';
 import chainKusama from './chains/kusama-128.gif';
 import chainPolkaBTC from './chains/polkabtc.png';
+import chainReef from './chains/reef.svg';
 import chainRococo from './chains/rococo.svg';
 import chainRococoTick from './chains/rococo-tick.svg';
 import chainRococoTrack from './chains/rococo-track.svg';
@@ -27,6 +27,7 @@ import chainShiden from './chains/shiden.png';
 import chainSnakenet from './chains/snakenet.svg';
 import chainUnique from './chains/unique.svg';
 import extensionPolkadotJs from './extensions/polkadot-js.svg';
+import extensionReef from './extensions/reef.svg';
 import externalCommonwealth from './external/commonwealth.png';
 import externalDotScanner from './external/dotscanner.png';
 import externalPolkascan from './external/polkascan.png';
@@ -208,8 +209,8 @@ export const chainLogos = Object.entries({
   'Prism PC1': nodePrism,
   'Prism Testnet': nodePrism,
   'ReAlis Network': nodeRealis,
-  'Reef Testnet': chainReef,
   'Reef Mainnet': chainReef,
+  'Reef Testnet': chainReef,
   'RioChain CC-1': nodeRiochain,
   'RioChain Staging': nodeRiochain,
   Rococo: chainRococo,
@@ -341,7 +342,7 @@ export const nodeLogos = Object.entries({
   'Prism Collator': nodePrism,
   'Prism Node': nodePrism,
   'ReAlis Network': nodeRealis,
-  'reef': chainReef,
+  reef: chainReef,
   'Rio Defi Chain Node': nodeRiochain,
   'RioChain Staging': nodeRiochain,
   robonomics: nodeRobonomics,
@@ -569,7 +570,8 @@ export const namedLogos: Record<string, unknown> = {
 
 // extension logos
 export const extensionLogos: Record<string, unknown> = {
-  'polkadot-js': extensionPolkadotJs
+  'polkadot-js': extensionPolkadotJs,
+  reef: extensionReef
 };
 
 // external logos, i.e. for explorers

@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/app-settings authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import type { InjectedExtension, InjectedMetadataKnown, MetadataDef } from '@reef-defi/extension-inject/types';
 import type { ApiPromise } from '@polkadot/api';
-import type { InjectedExtension, InjectedMetadataKnown, MetadataDef } from '@polkadot/extension-inject/types';
 
 import { useEffect, useMemo, useState } from 'react';
 import store from 'store';

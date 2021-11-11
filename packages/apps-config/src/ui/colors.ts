@@ -9,7 +9,7 @@ import { sanitize } from './util';
 // the actual RPC node it is corrected to (system.name RPC)
 
 // defaults
-const emptyColor = '#99999';
+const emptyColor = '#681cff';
 
 // based on chain name
 // alphabetical
@@ -57,7 +57,7 @@ const chainKusama = '#000000';
 const chainKylin = '#ed007e';
 const chainLitentry = 'linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)';
 const chainMybank = '#282736';
-const chainReef = "#681cff";
+const chainReef = '#681cff';
 const chainRocco = '#6f36dc';
 const chainRoccoAcala = '#173DC9';
 const chainRoccoAres = '#70FF8B';
@@ -246,9 +246,9 @@ export const chainColors: Record<string, string> = Object.entries({
   'Pontem Testnet': chainPontem,
   'Prism PC1': chainPrism,
   'Prism Testnet': chainPrism,
-  'Reef Testnet': chainReef,
-  'Reef Mainnet': chainReef,
   'ReAlis Network': nodeRealis,
+  'Reef Mainnet': chainReef,
+  'Reef Testnet': chainReef,
   'RioChain CC-1': chainRiochain,
   'Riochain Staging': chainRiochain,
   Rococo: chainRocco,
