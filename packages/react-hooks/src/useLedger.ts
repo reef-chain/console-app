@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { ApiPromise } from '@polkadot/api';
-import type { LedgerTypes } from '@polkadot/hw-ledger/types';
+import type { LedgerTypes } from '@reef-defi/hw-ledger/types';
 
 import { useCallback, useMemo } from 'react';
 
-import { Ledger } from '@polkadot/hw-ledger';
-import { knownGenesis, knownLedger } from '@polkadot/networks/defaults';
+import { Ledger } from '@reef-defi/hw-ledger';
+import { knownGenesis, knownLedger } from '@reef-defi/networks/defaults';
 import uiSettings from '@polkadot/ui-settings';
 import { assert } from '@polkadot/util';
 

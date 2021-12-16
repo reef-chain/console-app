@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Signer, SignerResult } from '@polkadot/api/types';
-import type { Ledger } from '@polkadot/hw-ledger';
+import type { Ledger } from '@reef-defi/hw-ledger';
 import type { Registry, SignerPayloadJSON } from '@polkadot/types/types';
 
 let id = 0;

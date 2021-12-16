@@ -1405,7 +1405,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.15.3, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.0":
+"@babel/runtime@npm:^7.15.3, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.0, @babel/runtime@npm:^7.16.3":
   version: 7.16.3
   resolution: "@babel/runtime@npm:7.16.3"
   dependencies:
@@ -2820,11 +2820,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/hw-ledger-transports@npm:7.8.2":
-  version: 7.8.2
-  resolution: "@polkadot/hw-ledger-transports@npm:7.8.2"
+"@polkadot/hw-ledger-transports@npm:7.9.2":
+  version: 7.9.2
+  resolution: "@polkadot/hw-ledger-transports@npm:7.9.2"
   dependencies:
-    "@babel/runtime": ^7.16.0
+    "@babel/runtime": ^7.16.3
     "@ledgerhq/hw-transport": ^6.11.2
     "@ledgerhq/hw-transport-node-hid-singleton": ^6.11.2
     "@ledgerhq/hw-transport-webhid": ^6.11.2
@@ -2832,19 +2832,19 @@ __metadata:
   dependenciesMeta:
     "@ledgerhq/hw-transport-node-hid-singleton":
       optional: true
-  checksum: 24a54b721d1141a731cd7f021e6a0d08dc1723615a5014aed9ef400994502c6601c35d968390adcdcdecbb8ce812610111261faa0cd84aaaa4e682ef0dc9c660
+  checksum: c8fe8a512e0d7894b258f694d5f9811bdb6292a6b4513ba9f9b4fa530f33fd33406d4aef04b1c92802d9281320afb2447d668a52c6e678788fc0af2b32d7c9d3
   languageName: node
   linkType: hard
 
-"@polkadot/hw-ledger@npm:^7.8.2":
-  version: 7.8.2
-  resolution: "@polkadot/hw-ledger@npm:7.8.2"
+"@polkadot/hw-ledger@npm:^7.1.1":
+  version: 7.9.2
+  resolution: "@polkadot/hw-ledger@npm:7.9.2"
   dependencies:
-    "@babel/runtime": ^7.16.0
-    "@polkadot/hw-ledger-transports": 7.8.2
-    "@polkadot/util": 7.8.2
+    "@babel/runtime": ^7.16.3
+    "@polkadot/hw-ledger-transports": 7.9.2
+    "@polkadot/util": 7.9.2
     "@zondax/ledger-substrate": ^0.18.0
-  checksum: 0e8638e1bd7bb8247333a00ed54f84e3a657740e2d3648fecdac266108dcc7f478f2c55e75a0ec4b37ad6cfda0142a3882c7c14335819a40d4afe8bc84edfc88
+  checksum: c5551259db5c31fb076514663a83feba375541ca8db6629e3c9eb64b1b2efd5f916b37ad0c663227c1855dce916444214b2ba29108f57d4365399785d90ff2cf
   languageName: node
   linkType: hard
 
@@ -3388,12 +3388,93 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@reef-defi/hw-ledger-transports@npm:7.8.2":
+  version: 7.8.2
+  resolution: "@reef-defi/hw-ledger-transports@npm:7.8.2"
+  dependencies:
+    "@babel/runtime": ^7.16.0
+    "@ledgerhq/hw-transport": ^6.11.2
+    "@ledgerhq/hw-transport-node-hid-singleton": ^6.11.2
+    "@ledgerhq/hw-transport-webhid": ^6.11.2
+    "@ledgerhq/hw-transport-webusb": ^6.11.2
+  dependenciesMeta:
+    "@ledgerhq/hw-transport-node-hid-singleton":
+      optional: true
+  checksum: 206d777cc450b965038eb9e8133841e5ab037a1cae09e4760f5c1f688e04953f6fa0982636c88e2f3a8ca597b7b01e442a1a2c11a4b34d360b6aa16741814842
+  languageName: node
+  linkType: hard
+
+"@reef-defi/hw-ledger@npm:7.8.2":
+  version: 7.8.2
+  resolution: "@reef-defi/hw-ledger@npm:7.8.2"
+  dependencies:
+    "@babel/runtime": ^7.16.0
+    "@reef-defi/hw-ledger-transports": 7.8.2
+    "@reef-defi/util": 7.8.2
+    "@zondax/ledger-substrate": ^0.22.0
+  checksum: a5ee230d5b3283d60eec94b1f062f2bc02674232db11c2a908503b20ecfdbb34581d8ec04d6a998b9d1594c613670a44ad24a5111a287787a2acfe3ccb404398
+  languageName: node
+  linkType: hard
+
+"@reef-defi/networks@npm:^7.8.2":
+  version: 7.8.2
+  resolution: "@reef-defi/networks@npm:7.8.2"
+  dependencies:
+    "@babel/runtime": ^7.16.0
+  checksum: 3d5252b5ce173226dbd7ff52d0a140bc3fb8bd5b3dae610754341f08a10c6090be5fb83895d49f9fcdddecf8bc22db66bbede877b53d927021431e5c4c6c87e1
+  languageName: node
+  linkType: hard
+
 "@reef-defi/type-definitions@npm:^0.1.6":
   version: 0.1.6
   resolution: "@reef-defi/type-definitions@npm:0.1.6"
   dependencies:
     "@open-web3/orml-type-definitions": ^0.9.1
   checksum: e00894a252b9d530c15b7e32e6c612e2ee5bd0126dabc03e3594c9aa0b46cbd5cfd0079fcb62d1023bcb9f1b3ceee27d6c53c0ee0b60ebf8f2e52df473f0cad3
+  languageName: node
+  linkType: hard
+
+"@reef-defi/util@npm:7.8.2":
+  version: 7.8.2
+  resolution: "@reef-defi/util@npm:7.8.2"
+  dependencies:
+    "@babel/runtime": ^7.16.0
+    "@reef-defi/x-textdecoder": 7.8.2
+    "@reef-defi/x-textencoder": 7.8.2
+    "@types/bn.js": ^4.11.6
+    bn.js: ^4.12.0
+    camelcase: ^6.2.0
+    ip-regex: ^4.3.0
+  checksum: 2d88d77041974be4d916cea488daca01039fae4db0cdd2d1f05a9e281ae04adaae4555e003079f9040c0fa09a35f9001ceb6cece4ffaeaecdfc16a2bc10fb247
+  languageName: node
+  linkType: hard
+
+"@reef-defi/x-global@npm:7.8.2":
+  version: 7.8.2
+  resolution: "@reef-defi/x-global@npm:7.8.2"
+  dependencies:
+    "@babel/runtime": ^7.16.0
+  checksum: 5a078dd8147cddf04aa3afbfc0972c3058c74590d6ff3e2af8f11635f745cbf89111022cd26b6b3f88fe0a5570e4fa13f3c539ebd8774f593a950fc030e18ed3
+  languageName: node
+  linkType: hard
+
+"@reef-defi/x-textdecoder@npm:7.8.2":
+  version: 7.8.2
+  resolution: "@reef-defi/x-textdecoder@npm:7.8.2"
+  dependencies:
+    "@babel/runtime": ^7.16.0
+    "@reef-defi/x-global": 7.8.2
+  checksum: 1f70a49fdd360f4551c48fb1b2ef865f65897c3deda4f23bc0ad3d95031991b721d7cb5aa5bacefdef028747502e3c4ee9f0290d9ddcd4a88f76508120a882bc
+  languageName: node
+  linkType: hard
+
+"@reef-defi/x-textencoder@npm:7.8.2":
+  version: 7.8.2
+  resolution: "@reef-defi/x-textencoder@npm:7.8.2"
+  dependencies:
+    "@babel/runtime": ^7.16.0
+    "@reef-defi/x-global": 7.8.2
+  checksum: 55437ef859d013beac3aab3614777b09a4f4fd39fc227cd8db20ed9320486d51c5de6fa019d93128fe82f1f6857c6c61f7127795c55a5d5b4f0be8b5e61ca99e
   languageName: node
   linkType: hard
 
@@ -4784,6 +4865,22 @@ __metadata:
     bs58: ^4.0.1
     hash.js: ^1.1.7
   checksum: cd3678d66f8756d87b422abc582a8fe23ec3ead1ee991058353171cf54b85df5e9ebe33bf0786394bd38320b460a091133b4c6f2078e14aa9341464f5b346a15
+  languageName: node
+  linkType: hard
+
+"@zondax/ledger-substrate@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "@zondax/ledger-substrate@npm:0.22.0"
+  dependencies:
+    "@babel/runtime": ^7.14.8
+    "@ledgerhq/hw-transport": ^6.2.0
+    bip32: 2.0.6
+    bip32-ed25519: "git+https://github.com/Zondax/bip32-ed25519.git"
+    bip39: 3.0.4
+    blakejs: ^1.1.1
+    bs58: ^4.0.1
+    hash.js: ^1.1.7
+  checksum: 76c8b18d825ca2c04afb682efaf90c6423a8edb9a0e2c0051b117ccfe0d36c3be1f59c65b85685cbeabb057e0c6c453ddc3d55ea61b0a4581f34905a71653538
   languageName: node
   linkType: hard
 
@@ -15444,6 +15541,8 @@ __metadata:
     "@pinata/sdk": ^1.1.23
     "@polkadot/dev": ^0.62.57
     "@polkadot/ts": ^0.4.4
+    "@reef-defi/hw-ledger": 7.8.2
+    "@reef-defi/networks": ^7.8.2
     "@types/bn.js": ^4.11.6
     "@types/chart.js": ^2.9.34
     "@types/file-saver": ^2.0.3

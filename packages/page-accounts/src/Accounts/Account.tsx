@@ -4,7 +4,7 @@
 import type BN from 'bn.js';
 import type { SubmittableExtrinsic } from '@polkadot/api/types';
 import type { DeriveDemocracyLock } from '@polkadot/api-derive/types';
-import type { Ledger } from '@polkadot/hw-ledger';
+import type { Ledger } from '@reef-defi/hw-ledger';
 import type { ActionStatus } from '@polkadot/react-components/Status/types';
 import type { ThemeDef } from '@polkadot/react-components/types';
 import type { Option } from '@polkadot/types';
