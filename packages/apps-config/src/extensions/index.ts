@@ -16,11 +16,11 @@ interface Extension {
 export const availableExtensions: Record<Browser, Extension[]> = [
   {
     browsers: {
-      chrome: 'https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd',
-      firefox: 'https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/'
+      chrome: 'https://chrome.google.com/webstore/detail/reef-chain-extension/mjgkpalnahacmhkikiommfiomhjipgjn',
+      firefox: 'https://addons.mozilla.org/en-US/firefox/addon/reef-js-extension/'
     },
     desc: 'Basic account injection and signer',
-    name: 'polkadot-js extension'
+    name: 'reef-js extension'
   }
 ].reduce((available: Record<Browser, Extension[]>, { browsers, desc, name }): Record<Browser, Extension[]> => {
   Object.entries(browsers).forEach(([browser, link]): void => {
