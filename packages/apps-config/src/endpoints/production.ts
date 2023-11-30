@@ -22,7 +22,7 @@ export function createProduction (t: TFunction, firstOnly?: boolean): LinkOption
       info: 'reef',
       text: t('rpc.prod.reef', 'Reef Mainnet', { ns: 'apps-config' }),
       providers: {
-        'Reef Finance': 'wss://rpc.reefscan.com/ws'
+        'Reef Chain': 'wss://rpc.reefscan.com/ws'
       }
     }
   ], firstOnly);
