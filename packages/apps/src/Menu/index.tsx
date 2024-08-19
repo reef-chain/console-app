@@ -34,7 +34,7 @@ function createExternals (t: TFunction): ItemRoute[] {
       text: t<string>('nav.github', 'GitHub', { ns: 'apps-routing' })
     },
     {
-      href: 'https://docs.reef.finance/',
+      href: 'https://docs.reef.io/',
       icon: 'book',
       name: 'wiki',
       text: t<string>('nav.wiki', 'Docs', { ns: 'apps-routing' })
